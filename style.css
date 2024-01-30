@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    background-color: rgb(197, 174, 218);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#panel{
+    background-color: rgb(255, 245, 232);
+    width: 75%;
+    height: 590px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+#p-top{
+    height: 100px;
+    width: 100%;
+    background-color: rgb(170, 137, 201);
+    padding: 0 20%;
+    display: flex;
+    justify-content: space-between;
+}
+.elem{
+    display: flex;
+    align-items: center;
+    gap: 9px;
+  
+}
+.elem h2{
+    font-size: 22px;
+    font-weight: 500;
+}
+.box{
+    padding: 7px;
+    background-color: antiquewhite;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 5px;
+    color: rgb(87, 0, 87);
+}
+#p-bottom{
+    padding: 15px;
+    width: 100%;
+    height: calc(100% - 100px);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+}
+.bubble{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color: rgba(120, 42, 165, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.bubble:hover{
+    background-color: rgba(120, 42, 165, 0.4) ;
+}
